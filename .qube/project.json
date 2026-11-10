@@ -1,0 +1,12 @@
+{
+  "mod_id": "ffff_721ef1a",
+  "project_id": "d85a1e82-5001-4739-a9e2-3c35e1043bab",
+  "repository_id": "1452019741",
+  "schema_version": 2,
+  "template": {
+    "id": "fabric",
+    "revision": null,
+    "sha256": null,
+    "version": "1.21.1"
+  }
+}

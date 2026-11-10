@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "ffff_721ef1a",
+	"version": "${version}",
+	"name": "ffff",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/ffff_721ef1a/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.qube.ffff_721ef1a.Ffff721ef1a"
+		],
+		"client": [
+			"dev.qube.ffff_721ef1a.client.Ffff721ef1aClient"
+		],
+		"fabric-datagen": [
+			"dev.qube.ffff_721ef1a.client.Ffff721ef1aDataGenerator"
+		],
+		"fabric-gametest": [
+			"dev.qube.ffff_721ef1a.Ffff721ef1aGameTests"
+		]
+	},
+	"mixins": [
+		"ffff_721ef1a.mixins.json",
+		{
+			"config": "ffff_721ef1a.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
